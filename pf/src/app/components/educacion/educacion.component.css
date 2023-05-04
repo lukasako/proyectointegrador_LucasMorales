@@ -1,10 +1,9 @@
 .row{
     margin-right:20px;
     margin-left: 30px;
+    background: white
 }
-div{
-    background-color:rgb(107, 175, 177);
-}
+
 
 h3,h4,h6 {
     display: inline

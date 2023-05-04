@@ -1,3 +1,6 @@
 body{
     background-color:  rgb(107, 175, 177);
 }
+html{
+    scroll-behavior: smooth;
+}
