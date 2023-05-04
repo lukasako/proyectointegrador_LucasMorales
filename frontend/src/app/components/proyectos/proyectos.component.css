@@ -1,0 +1,36 @@
+.row{
+    margin-right:20px;
+    margin-left: 30px;
+    background: white;
+}
+
+h4{
+    text-align: center;
+}
+.contenedor{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+
+}
+.contenedor2{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+
+}
+.proyectoimg{
+    width: 30%;
+}
+.proyectoimg2{
+    width: 30%;
+}
+
+.imgdiv{
+    text-align: end;
+    padding-right: 5%;
+}
+.imgdiv2{
+    text-align: end;
+    padding-right: 5%;
+}

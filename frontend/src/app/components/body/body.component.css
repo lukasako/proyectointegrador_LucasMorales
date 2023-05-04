@@ -1,0 +1,11 @@
+#banner{
+    padding-right: 20px;
+    padding-left: 30px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+#out{
+    background-color:rgb(107, 175, 177);
+}
