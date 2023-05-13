@@ -1,0 +1,16 @@
+.row{
+    margin-right:20px;
+    margin-left: 30px;
+    padding-top: 40px;
+    background: linear-gradient(white, rgb(107, 175, 177));
+}
+footer{
+    text-align: end;
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(154, 208, 210);
+}
