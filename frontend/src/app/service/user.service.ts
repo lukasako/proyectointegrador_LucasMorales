@@ -9,12 +9,12 @@ import {Observable} from 'rxjs'
   providedIn: 'root'
 })
 export class UserService {
-  URL = 'httt://localhost:8080/usuarios/';
+  URL = 'http://localhost:8080/usuario';
 
 
   constructor(private http:HttpClient) { }
 
   public getUsuario(): Observable<usuario>{
-    return this.http.get<usuario>(this.URL+'/usuario/traer')
+    return this.http.get<usuario>(this.URL+'/traer/perfil')
   }
 }

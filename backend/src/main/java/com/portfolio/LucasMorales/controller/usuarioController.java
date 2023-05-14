@@ -69,4 +69,10 @@ public class usuarioController {
         iusuarioservice.saveUsuario(usuario);
         return usuario;
     }
+    
+    
+    @GetMapping("/usuario/traer/perfil")
+    public Persona findPersona(){
+        return iusuarioservice.findUsuario((int)2);
+    }
 }
