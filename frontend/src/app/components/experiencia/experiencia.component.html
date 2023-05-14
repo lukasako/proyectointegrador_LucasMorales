@@ -1,0 +1,28 @@
+<div class="row"> 
+    <h3 class="titulo"> Experiencia Laboral</h3>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-light" routerLink="/nuevaxp"  > Nueva Experiencia</button>
+    </div>                                                             <!-- esto va aca arriba *ngIf="isLogged"-->
+   <!-- <div class="col-lg-11"> 
+        <ul>
+            <li> <img src="../../../assets/inasud.png" height="70px" width="70px"> <h4>Administrador base de datos</h4> <h6 >(2022-actual)</h6></li>
+            <p>Create read update and delete de informacion en base de datos SQL</p>
+            <li><img src="../../../assets/microfocus.png" height="50px" width="50px">  <h4>Pasantia consultor</h4> <h6 >(2023-actual)</h6></li>
+            <p>Pasantia en MicroFocus consultoria</p>
+        </ul>
+    </div>-->
+    <div class="col-lg-11">
+        <table class="table"> 
+            <tbody>
+                <tr *ngFor="let Experiencia of xp">
+                    <td>{{Experiencia.nombreE}}</td>
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <td>Editar</td>
+                    <td>Borrar</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
