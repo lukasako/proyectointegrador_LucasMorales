@@ -1,0 +1,26 @@
+.row{
+    padding-top: 25%;
+}
+.form-gr{
+    padding-top: 1%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+.btn{
+    align-items: center;
+    text-align: center;
+}
+.texto{
+    padding: 1%;
+    font-size: large;
+    font-weight: bold;
+}

@@ -21,6 +21,13 @@ import { NuevaxpComponent } from './components/experiencia/nuevaxp.component';
 import { EditXpComponent } from './components/experiencia/edit-xp.component';
 import { NuevaedComponent } from './components/educacion/nuevaed.component';
 import { EditedComponent } from './components/educacion/edited.component';
+import { EditskComponent } from './components/skills/editsk.component';
+import { NuevaskComponent } from './components/skills/nuevask.component';
+import { EditabComponent } from './components/about/editab.component';
+import {Storage, provideStorage,getStorage} from '@angular/fire/storage';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +46,10 @@ import { EditedComponent } from './components/educacion/edited.component';
     NuevaxpComponent,
     EditXpComponent,
     NuevaedComponent,
-    EditedComponent
+    EditedComponent,
+    EditskComponent,
+    NuevaskComponent,
+    EditabComponent, 
   ],
   imports: [
     BrowserModule,
@@ -47,6 +57,9 @@ import { EditedComponent } from './components/educacion/edited.component';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
+
   ],
   providers: [
     interceptorProvider

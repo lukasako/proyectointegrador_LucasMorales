@@ -6,11 +6,18 @@
 
 .btned{
     text-align: center;
-    margin-bottom: 5%;
+
 }
 
 td{
     text-align: left;
+}
+.btnnew{
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 h3,h4,h6 {

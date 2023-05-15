@@ -1,12 +1,19 @@
 .row{
-    padding-top: 200px;
+    padding-top: 80px;
     margin-right:20px;
     margin-left: 30px;
-}
-div{
     background: linear-gradient(#6bafb112, white)
 }
+
 .btnxp{
+    text-align: center;
+
+}
+.btnnew{
+    background-color: rgba(107, 175, 177, 0.071);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 5%;
 }

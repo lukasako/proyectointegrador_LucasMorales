@@ -4,6 +4,25 @@
     background: white;
     padding:100px;
 }
+.btnsk{
+    text-align: center;
+}
+.show{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.btnnew{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+td{
+    text-align: left;
+}
 
 .hs{
     text-align: center;

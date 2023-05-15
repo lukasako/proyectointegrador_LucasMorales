@@ -9,12 +9,19 @@ import {Observable} from 'rxjs'
   providedIn: 'root'
 })
 export class UserService {
-  URL = 'http://localhost:8080/usuario';
+  URL = 'http://localhost:8080/usuario/';
 
 
-  constructor(private http:HttpClient) { }
+  constructor(private httpClient:HttpClient) { }
 
-  public getUsuario(): Observable<usuario>{
-    return this.http.get<usuario>(this.URL+'/traer/perfil')
+  public lista():Observable<usuario[]>{
+    return this.httpClient.get<usuario[]>(this.URL+'lista');
   }
+  public  detail(id:number): Observable<usuario>{
+    return this.httpClient.get<usuario>(this.URL + `detail/${id}`);
+  }
+  public update(id:number, Usuario: usuario): Observable<any>{
+    return this.httpClient.put<any>(this.URL+ `update/${id}`, Usuario);
+  }
+
 }
