@@ -1,0 +1,22 @@
+<div class="wrapper">
+    <div class="logo">
+        <img src="../../../assets/logoap.png" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+        Ingresa
+    </div>
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" name="userName" id="userName" placeholder="Nombre de usuario" [(ngModel)]="userName" required />
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" id="password" placeholder="Contraseña"  [(ngModel)]="password" required >
+        </div>
+        <button class="btn mt-3">Ingresar</button>
+    </form>
+    <div class="text-center fs-6">
+    </div>
+    <a href="../">Volver al inicio</a>
+</div>

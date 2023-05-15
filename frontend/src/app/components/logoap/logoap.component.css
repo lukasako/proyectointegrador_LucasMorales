@@ -1,0 +1,20 @@
+#logoap{
+    min-width: 200px;
+    max-width: 201px;
+}
+div{
+    background-color: rgb(107, 175, 177);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+ul{
+    list-style-type:none;
+}
+li{
+    float: right;
+    text-align: center;
+    width: 5em;
+    padding-top: 25px;
+}
+
